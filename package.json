@@ -1,0 +1,30 @@
+{
+  "name": "yy-scheduler",
+  "version": "1.0.0",
+  "description": "a scheduler that limit tast's running number\u001b\u001b\u001b",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuemenglong/yy-scheduler.git"
+  },
+  "keywords": [
+    "scheduler",
+    "async"
+  ],
+  "author": "yuemenglong@126.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuemenglong/yy-scheduler/issues"
+  },
+  "homepage": "https://github.com/yuemenglong/yy-scheduler#readme",
+  "dependencies": {
+    "bluebird": "^3.3.5",
+    "yy-channel": "^1.0.0"
+  },
+  "devDependencies": {
+    "should": "^8.3.1"
+  }
+}
