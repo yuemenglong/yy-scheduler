@@ -1,10 +1,10 @@
 {
   "name": "yy-scheduler",
   "version": "1.0.0",
-  "description": "a scheduler that limit tast's running number\u001b\u001b\u001b",
+  "description": "a scheduler that limit task's running number",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/yuemenglong/yy-scheduler#readme",
   "dependencies": {
     "bluebird": "^3.3.5",
-    "yy-channel": "^1.0.0"
+    "yy-channel": "^1.0.2"
   },
   "devDependencies": {
     "should": "^8.3.1"
